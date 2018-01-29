@@ -1,6 +1,11 @@
 # pi-reactions
 Get reactions on facebook post
 
+### Setup
+```
+$ sudo apt install python-smbus
+```
+
 ### How to install facebook-sdk
 ```
 virtualenv --system-site-packages facebookenv
