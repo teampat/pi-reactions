@@ -15,7 +15,7 @@ try:
         comments = post['comments']['summary']['total_count']
         lcd.lcd_display_string("Reactions {}".format(reactions), 1)
         lcd.lcd_display_string("Comments {}".format(comments), 2)	
-        print("Reactions : {} | Comments : {}".format(reactions, comments))
+        print("Reactions: {} | Comments: {}".format(reactions, comments))
         time.sleep(1)
 except:
     lcd.lcd_clear()
